@@ -12,6 +12,7 @@ Tipy:
 
 Nemusíte kontrolovat, zda uživatel zadal skutečně číslo, či zda jsou tam i jiné znaky. To jsme v kurzu zatím neřešili.
 Pro kontrolu předvolby použijte slicing (viz první lekce) pro získání prvních 4 znaků řetězce. Ty porovnejte s řetězcem "+420"."""
+
 telefonni_cislo = input("Zadej telefonni cislo k zaslani zpravy")
 
 def over_spravnost(telefonni_cislo):
@@ -33,3 +34,5 @@ if spravne_cislo:
     print(f'Cena zpravy je {cena_zpravy} Kc.')
 else:
     print(f'Telefonni cislo neni spravne.')
+
+
