@@ -20,6 +20,6 @@ for zak, body in pisemka.items():
         vysledky[zak] = "Fail"
 
 with open('python-kurz-2023/Ukol-3/prospech.json', mode='w', encoding='utf-8') as finalni_soubor:
-    json.dump(vysledky, finalni_soubor)
+    json.dump(vysledky, finalni_soubor, ensure_ascii = False)
 
 
